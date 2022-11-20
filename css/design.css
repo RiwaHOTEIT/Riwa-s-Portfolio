@@ -1,0 +1,35 @@
+body{
+    background-color: cadetblue;
+}
+.carousel-inner{
+    margin-top: 3%;
+    margin-left: 37%;
+    width: 400px;
+    height: 450px;
+}  
+
+h1{
+    text-align: center;
+    font-size: 150px;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav-link active{
+    color: aliceblue;
+    background-color: black;
+}
+
+
+
+
+@media screen and (max-width: 1024px){}
+
+@media screen and (max-width: 1024px) and (min-width:620px ){}
+    
+@media screen and (max-width: 600px) and (min-width:320px ) {/* Nouvelles règles si la fenêtre fait 1024px de large ou moins*/};
+
+@media all and (max-device-width:480px){}
+
+
+

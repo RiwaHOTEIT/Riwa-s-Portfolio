@@ -1,0 +1,77 @@
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: rgba(214, 99, 73, 0.974);
+}
+
+
+h1{
+    text-align: center;
+    font-size: 150px;
+    font-weight: 400;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+
+.boite1{
+
+    transition: background 15s,transform 5s;
+}
+
+.boite1:hover{
+    transform: rotate(360deg);
+    background: rgba(214, 99, 73, 0.974);
+}
+
+.f{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+
+.boite2{
+    animation:Slidenight 22s infinite;
+    margin-top: 5%;
+    width: 50%;
+}
+@keyframes Slidenight{
+    from{
+        transform: translate(0%);
+        
+    }
+    30%{
+        transform: translate(100%);
+        
+    }
+    80%{
+        transform: translate(0%);
+        
+    }
+    to{
+        transform: translate(0%);
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 1024px){}
+
+@media screen and (max-width: 1024px) and (min-width:620px ){}
+    
+@media screen and (max-width: 600px) and (min-width:320px ) {/* Nouvelles règles si la fenêtre fait 1024px de large ou moins*/};
+
+@media all and (max-device-width:480px){}

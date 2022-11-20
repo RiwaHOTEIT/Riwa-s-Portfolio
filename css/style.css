@@ -1,0 +1,94 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+header{
+  background-image: url(../images/metaverse.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 20px;
+}
+
+li{
+  display:inline-block;
+}
+
+
+a{
+ text-decoration: none;
+ color: rgb(245, 16, 199);
+ padding: 5px 20px;
+ border: 1px solid transparent;
+ transition: 0.5s;
+ border-radius: 10 px;
+}
+
+a:hover{
+  background-color:antiquewhite;
+  color:black;
+}
+
+.dropdown {
+  color: rgb(245, 16, 199);
+} 
+
+h1{
+  color: aliceblue;
+  font-family: 'VT323', monospace;
+  font-size: 80px;
+}
+
+.Title{
+  text-align: center;
+  margin-top: 30%;
+}
+
+.click{
+  text-align: center;
+}
+
+.acess{
+  color: rgb(245, 12, 128);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+button{
+  margin-bottom: 30px;
+  margin-top: 20px;
+  border: none;
+  padding: 12px 25px;
+  background: linear-gradient(25deg, rgb(51, 5, 27),rgb(222, 17, 113));
+  color: white;
+  font-size: 15px;
+  border-radius: 50px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.checkitout{
+  text-decoration: underline;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 1024px){}
+
+@media screen and (max-width: 1024px) and (min-width:620px ) {}
+
+@media screen and (max-width: 600px) and (min-width:320px ) {/*Nouvelles règles si la fenêtre fait 1024px de large ou moins*/}
